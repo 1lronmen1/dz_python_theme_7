@@ -85,10 +85,10 @@ def boys_and_girls(boys, girls):
     for i in range(number_of_boys):
       print(sorted_boys[i], "и", sorted_girls[i])
 
-print(f"Тест 1:\n boys: {test1['boys']}\n girls:\n {test1['girls']}\n")
+print(f"Тест первый:\n boys: {test1['boys']}\n girls:\n {test1['girls']}\n")
 boys_and_girls(test1['boys'],test1['girls'])
 print("\n")
-print(f"Тест 2:\n boys: {test2['boys']}\n girls:\n {test2['girls']}\n")
+print(f"Тест второй:\n boys: {test2['boys']}\n girls:\n {test2['girls']}\n")
 boys_and_girls(test2['boys'],test2['girls'])
 
 ### EXAMPLE 2
